@@ -1,14 +1,16 @@
 export interface EntitySchema {
     name: string;
     modules: string[];
+    srcPath: string;
     appPath: string;
-    modulePath: string;
     apiPath: string;
+    modulePath: string;    
     pagePath: string;
 }
 
 export enum ModulesEnum { 
     //main files
+    src             = 'src',
     app             = 'app',   
     //api
     api             = "api",

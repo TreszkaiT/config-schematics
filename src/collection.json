@@ -6,6 +6,11 @@
       "factory": "./entity/index",
       "schema": "./entity/schema.json"
     },
+    "entity-src": {
+      "description": "Generate SRC files.",
+      "factory": "./entity-src/index",
+      "schema": "./entity-src/schema.json"
+    },
     "entity-app": {
       "description": "Generate APP files.",
       "factory": "./entity-app/index",

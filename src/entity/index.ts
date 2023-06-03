@@ -13,7 +13,7 @@ export default function (schema: EntitySchema): Rule {
   return (_tree: Tree, context: SchematicContext) => {
     const moduleSchematics: Rule[] = [];
 
-    ['api', 'app', 'config', 'page'].forEach((moduleName) => {
+    ['src', 'app', 'api', 'config', 'page'].forEach((moduleName) => {
       if (schema.modules.includes(moduleName)) {
         moduleSchematics.push(schematic(`entity-${moduleName}`, schema));
       }

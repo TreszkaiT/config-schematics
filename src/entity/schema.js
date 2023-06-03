@@ -4,6 +4,7 @@ exports.ModulesEnum = void 0;
 var ModulesEnum;
 (function (ModulesEnum) {
     //main files
+    ModulesEnum["src"] = "src";
     ModulesEnum["app"] = "app";
     //api
     ModulesEnum["api"] = "api";
