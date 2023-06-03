@@ -1,0 +1,35 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "entity": {
+      "description": "A full entity Config schematic.",
+      "factory": "./entity/index",
+      "schema": "./entity/schema.json"
+    },
+    "entity-src": {
+      "description": "Generate SRC files.",
+      "factory": "./entity-src/index",
+      "schema": "./entity-src/schema.json"
+    },
+    "entity-app": {
+      "description": "Generate APP files.",
+      "factory": "./entity-app/index",
+      "schema": "./entity-app/schema.json"
+    },
+    "entity-api": {
+      "description": "An Entity Config API schematic.",
+      "factory": "./entity-api/index",
+      "schema": "./entity-api/schema.json"
+    },   
+    "entity-config": {
+      "description": "An Entity config module schematic.",
+      "factory": "./entity-config/index",
+      "schema": "./entity-config/schema.json"
+    },
+    "entity-page": {
+      "description": "An Entity config page schematic.",
+      "factory": "./entity-page/index",
+      "schema": "./entity-page/schema.json"
+    }
+  }
+}

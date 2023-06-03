@@ -29,12 +29,12 @@ npm publish
 
 https://github.com/angular/angular-cli/blob/HEAD/packages/angular_devkit/schematics/README.md
 
-- npm install -g @angular-devkit/schematics-cli Install schematics-cli as a global library
+- npm install -g @angular-devkit/schematics-cli  :::  Install schematics-cli as a global library
 
-- schematics blank --name=new-project Generate a new schematics project
+- schematics blank --name=new-project   ::: Generate a new schematics project
 
-- npm run-script build Build this project
+- npm run-script build  ::: Build this project
 
-- schematics ../knowledge-entity-schematics:entity Go to another project and call this schematics
+- schematics ./config-schematics:entity --debug false   :::  Go to another project and call this schematics
 
-- schematics blank --name=entity-api Go to the project folder and run the same command with a new schematic name
+- schematics blank --name=entity-api   :::  Go to the project folder and run the same command with a new schematic name to create a new schema 
