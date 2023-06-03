@@ -15,9 +15,15 @@
                 "message": "Which modules do you want to generate?",
                 "type": "list",
                 "items": [
-                    "api", "config", "page"
+                    "api", "app", "config", "page"
                 ]
             }
+        },
+        "appPath": {
+            "type": "string",
+            "default": "src/app",
+            "description": "App path",
+            "x-prompt": "Generate the src/app directory files: ( src/app )"
         },
         "modulePath": {
             "type": "string",

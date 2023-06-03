@@ -6,6 +6,11 @@
       "factory": "./entity/index",
       "schema": "./entity/schema.json"
     },
+    "entity-app": {
+      "description": "Generate APP files.",
+      "factory": "./entity-app/index",
+      "schema": "./entity-app/schema.json"
+    },
     "entity-api": {
       "description": "An Entity Config API schematic.",
       "factory": "./entity-api/index",
