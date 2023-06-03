@@ -35,6 +35,6 @@ https://github.com/angular/angular-cli/blob/HEAD/packages/angular_devkit/schemat
 
 - npm run-script build  ::: Build this project
 
-- schematics ../config-schematics:entity --debug false   :::  Go to another project and call this schematics
+- schematics ./config-schematics:entity --debug false   :::  Go to another project and call this schematics
 
 - schematics blank --name=entity-api   :::  Go to the project folder and run the same command with a new schematic name to create a new schema 

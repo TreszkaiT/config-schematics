@@ -6,10 +6,7 @@ export interface EntitySchema {
     pagePath: string;
 }
 export declare enum ModulesEnum {
-    //api
-    api             = "api",
-    //modules
-    config          = "config",
-    //pages
-    page            = "page",
+    api = "api",
+    config = "config",
+    page = "page"
 }

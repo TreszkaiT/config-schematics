@@ -6,12 +6,8 @@ var ModulesEnum;
     //api
     ModulesEnum["api"] = "api";
     //modules
-    ModulesEnum["data"] = "data";
-    ModulesEnum["store"] = "store";
-    ModulesEnum["form"] = "form";
-    ModulesEnum["util"] = "util";
-    ModulesEnum["collection"] = "collection";
-    ModulesEnum["admin"] = "admin";
+    ModulesEnum["config"] = "config";
+    //pages
     ModulesEnum["page"] = "page";
 })(ModulesEnum = exports.ModulesEnum || (exports.ModulesEnum = {}));
 //# sourceMappingURL=schema.js.map
